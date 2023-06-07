@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 20vh;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    height: 75vh;
+    background-color: lightgreen;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+main section#area_cartelas{
+    height: 100%;
+    width: 70%;
+    background-color: lightpink;
+    display: flex;
+    flex-direction: column ;
+}
+
+div#header_cartelas{
+    height: 20%;
+    width: 100%;
+    background-color: limegreen;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+button{
+
+}
+
+.cartela{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+}
+
+.cartela h4{
+    margin-bottom: 10px;
+}
+
+table,th,td{
+    border: 1px solid black;
+
+}
+
+div#header_jogo{
+    height: 20%;
+    width: 100%;
+    background-color: lavender;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+div#jogo{
+    display: flex;
+    align-items: center;
+    wid
+}
+
+footer{
+    position: fixed;
+    width: 100%;
+    height: 5vh;
+    bottom: 0px;
+    align-items: center;
+    justify-content: center;
+
+}
